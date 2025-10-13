@@ -1,0 +1,8 @@
+
+
+1. Add a PanelContainer (Tooltip) with a RichTextLabel child
+2. Enable BBCode on RichTextLabel
+3. Set mouse filter to Pass on Tooltip and RichTextLabel
+4. Add a script to Tooltip
+
+can use 
