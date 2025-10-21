@@ -1,7 +1,7 @@
 extends Node
 # Add this to Globals
+# Tutorial: https://youtu.be/xG2GGniUa5o?si=bLuAMTqBfVh1LM8g
 
-# https://youtu.be/xG2GGniUa5o?si=bLuAMTqBfVh1LM8g
 const save_location = "user://save_file.tres"
 const user_settings_save_location = "user://user_settings_save_file.tres" # can have multiple save file types
 

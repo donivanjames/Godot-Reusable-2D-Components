@@ -1,6 +1,9 @@
 # Godot Reusable 2D Components
 Reusable Godot components with guides for use in 2D projects
 
+## Current Components
+1. Save and load with Godot resources
+
 ## Favorite Plugins
 1. SearchInFilesBar - Yonodusk
 2. Collapse Folders - poohcom1
