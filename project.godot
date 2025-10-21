@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Godot Reusable 2D Components"
+run/main_scene="uid://cmyq4vdm7iw2f"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+SaveAndLoad="*res://save_and_load/save_and_load.gd"
 
 [editor_plugins]
 

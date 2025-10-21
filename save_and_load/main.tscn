@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmyq4vdm7iw2f"]
+
+[ext_resource type="Script" uid="uid://bp3g66n2qt4i2" path="res://save_and_load/save_and_load_test_scene.gd" id="1_dog8a"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_dog8a")
+
+[node name="IncrementButton" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 10)
+offset_left = 246.0
+offset_top = 131.0
+offset_right = 254.0
+offset_bottom = 139.0
+text = "+1"
+
+[node name="SaveButton" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 10)
+offset_left = 278.0
+offset_top = 289.0
+offset_right = 286.0
+offset_bottom = 297.0
+text = "Save"
+
+[node name="LoadButton" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 10)
+offset_left = 530.0
+offset_top = 392.0
+offset_right = 538.0
+offset_bottom = 400.0
+text = "Load"
+
+[connection signal="pressed" from="IncrementButton" to="." method="_on_increment_button_pressed"]
+[connection signal="pressed" from="SaveButton" to="." method="_on_save_button_pressed"]
+[connection signal="pressed" from="LoadButton" to="." method="_on_load_button_pressed"]
