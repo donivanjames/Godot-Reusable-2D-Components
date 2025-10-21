@@ -2,7 +2,7 @@
 Reusable Godot components with guides for use in 2D projects
 
 ## Favorite Plugins
-SearchInFilesBar - Yonodusk
-Collapse Folders - poohcom1
-godot-vim - Josh N
-Simple Format On Save - VitSoonYung
+1. SearchInFilesBar - Yonodusk
+2. Collapse Folders - poohcom1
+3. godot-vim - Josh N
+4. Simple Format On Save - VitSoonYung
