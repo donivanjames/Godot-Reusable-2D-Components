@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckukujn7oltgo"]
+
+[ext_resource type="Script" uid="uid://bfjhp7m4a1hpy" path="res://drag_and_drop/item_slot.gd" id="1_81qsk"]
+[ext_resource type="Texture2D" uid="uid://vldeo78wod3y" path="res://icon.svg" id="2_ojxlk"]
+
+[node name="ItemSlot" type="Panel"]
+custom_minimum_size = Vector2(50, 50)
+script = ExtResource("1_81qsk")
+
+[node name="Icon" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.06
+anchor_top = 0.06
+anchor_right = 0.94
+anchor_bottom = 0.94
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ojxlk")
+expand_mode = 1
+stretch_mode = 5
+metadata/_edit_use_anchors_ = true
