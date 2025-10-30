@@ -28,4 +28,6 @@ func _can_drop_data(_at_position: Vector2, _data: Variant) -> bool:
 
 
 func _drop_data(_at_position: Vector2, data: Variant) -> void:
+	var tmp = icon.texture # item to swap
 	icon.texture = data.texture
+	data.texture = tmp # swap item slots
