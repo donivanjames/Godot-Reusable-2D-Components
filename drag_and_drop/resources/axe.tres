@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DragItemData" load_steps=3 format=3 uid="uid://b8xcucvv00elo"]
+
+[ext_resource type="Script" uid="uid://bh2837v541fx0" path="res://drag_and_drop/drag_item_data.gd" id="1_a1n4i"]
+[ext_resource type="Texture2D" uid="uid://bohuay1wh1chl" path="res://assets/kenney_cursor-pack/PNG/Basic/Default/tool_axe.png" id="1_bf8vj"]
+
+[resource]
+script = ExtResource("1_a1n4i")
+item_name = "Axe"
+icon = ExtResource("1_bf8vj")
+metadata/_custom_type_script = "uid://bh2837v541fx0"

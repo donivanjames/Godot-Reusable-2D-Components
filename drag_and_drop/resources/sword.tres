@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DragItemData" load_steps=3 format=3 uid="uid://dh3u6x5gcdp2f"]
+
+[ext_resource type="Texture2D" uid="uid://biih6s8qdb1d5" path="res://assets/kenney_cursor-pack/PNG/Basic/Default/tool_sword_b.png" id="1_7f3vy"]
+[ext_resource type="Script" uid="uid://bh2837v541fx0" path="res://drag_and_drop/drag_item_data.gd" id="2_n7lpy"]
+
+[resource]
+script = ExtResource("2_n7lpy")
+item_name = "Sword"
+icon = ExtResource("1_7f3vy")
+metadata/_custom_type_script = "uid://bh2837v541fx0"

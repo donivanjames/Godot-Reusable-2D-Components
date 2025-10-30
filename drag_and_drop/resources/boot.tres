@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DragItemData" load_steps=3 format=3 uid="uid://dvxamq5ffmm0o"]
+
+[ext_resource type="Texture2D" uid="uid://5b8k1jrkdwm4" path="res://assets/kenney_cursor-pack/PNG/Basic/Default/boot.png" id="1_6uw4x"]
+[ext_resource type="Script" uid="uid://bh2837v541fx0" path="res://drag_and_drop/drag_item_data.gd" id="2_tgnko"]
+
+[resource]
+script = ExtResource("2_tgnko")
+item_name = "Boot"
+icon = ExtResource("1_6uw4x")
+metadata/_custom_type_script = "uid://bh2837v541fx0"

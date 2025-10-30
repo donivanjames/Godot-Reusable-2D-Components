@@ -25,5 +25,5 @@ func _notification(what: int) -> void:
 		# if drag leads to an invalide position: return to last spot
 		if not is_drag_successful():
 			if data_back:
-				data_back.show()
+				data_back.icon.show()
 				data_back = get_theme_default_base_scale()

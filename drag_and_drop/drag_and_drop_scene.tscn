@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://ig5jskdi4gg4"]
+[gd_scene load_steps=7 format=3 uid="uid://ig5jskdi4gg4"]
 
 [ext_resource type="Texture2D" uid="uid://vldeo78wod3y" path="res://icon.svg" id="1_63obs"]
 [ext_resource type="Script" uid="uid://bfjhp7m4a1hpy" path="res://drag_and_drop/item_slot.gd" id="1_akgoe"]
 [ext_resource type="Script" uid="uid://c4g5etybboqio" path="res://drag_and_drop/inventory.gd" id="1_vtqi8"]
+[ext_resource type="Resource" uid="uid://b8xcucvv00elo" path="res://drag_and_drop/resources/axe.tres" id="3_fgawx"]
+[ext_resource type="Resource" uid="uid://dvxamq5ffmm0o" path="res://drag_and_drop/resources/boot.tres" id="5_ail5d"]
+[ext_resource type="Resource" uid="uid://dh3u6x5gcdp2f" path="res://drag_and_drop/resources/sword.tres" id="6_kkpus"]
 
 [node name="DragAndDropScene" type="Control"]
 layout_mode = 3
@@ -47,6 +50,7 @@ columns = 8
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 script = ExtResource("1_akgoe")
+item = ExtResource("3_fgawx")
 
 [node name="Icon" type="TextureRect" parent="CanvasLayer/Inventory/MarginContainer/GridContainer/ItemSlot"]
 unique_name_in_owner = true
@@ -67,6 +71,7 @@ metadata/_edit_use_anchors_ = true
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 script = ExtResource("1_akgoe")
+item = ExtResource("5_ail5d")
 
 [node name="Icon" type="TextureRect" parent="CanvasLayer/Inventory/MarginContainer/GridContainer/ItemSlot2"]
 layout_mode = 1
@@ -85,6 +90,7 @@ metadata/_edit_use_anchors_ = true
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 script = ExtResource("1_akgoe")
+item = ExtResource("6_kkpus")
 
 [node name="Icon" type="TextureRect" parent="CanvasLayer/Inventory/MarginContainer/GridContainer/ItemSlot3"]
 layout_mode = 1
