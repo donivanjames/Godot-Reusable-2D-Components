@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://boad2tv3tos14"]
+
+[node name="TabMenu" type="CanvasLayer"]
+
+[node name="TabContainer" type="TabContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -693.00195
+offset_top = -359.0
+offset_right = 693.00195
+offset_bottom = 359.0
+grow_horizontal = 2
+grow_vertical = 2
+current_tab = 0
+drag_to_rearrange_enabled = true
+
+[node name="Tab 1" type="Panel" parent="TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TabContainer/Tab 1"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -360.0
+offset_top = -176.5
+offset_right = 360.0
+offset_bottom = 176.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/normal_font_size = 32
+text = "All you have to do is add children to a tabcontainer and they will automatically become tabs based on the node name, in this case I'm using panels."
+
+[node name="Tab 2" type="Panel" parent="TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TabContainer/Tab 2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -65.5
+offset_top = -27.25
+offset_right = 65.5
+offset_bottom = 27.25
+grow_horizontal = 2
+grow_vertical = 2
+text = "Test Tab 2"
+
+[node name="Tab 3" type="Panel" parent="TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TabContainer/Tab 3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 103.0
+offset_bottom = 24.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Test Tab 3"
