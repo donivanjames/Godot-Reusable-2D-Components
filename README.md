@@ -3,6 +3,8 @@ Reusable Godot components with guides for use in 2D projects
 
 ## Current Components
 1. Save and load with Godot resources
+2. Drag and drop UI
+3. Tab menus
 
 ## Favorite Plugins
 1. SearchInFilesBar - Yonodusk
